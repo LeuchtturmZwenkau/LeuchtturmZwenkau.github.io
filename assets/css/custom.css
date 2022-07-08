@@ -118,4 +118,35 @@ background:#ffffff28; ;
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
+      
+          .navbar-toggler-icon {
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      vertical-align: right;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 100%;
+    }
+
+
+.layout {
+width: 250px;
+height: auto;
+
+}
+.layoutm {
+width: 250px;
+height: auto;
+
+}
+      
+      
+      
+      
+      
+      
+      
+      
+      
   }
