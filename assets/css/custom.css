@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@allstergamer 
+allstergamer
+/
+allstergamer.github.io
+Public
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+allstergamer.github.io/content/css/custom.css
+@allstergamer
+allstergamer Update custom.css
+Latest commit 96a8fe3 2 hours ago
+ History
+ 1 contributor
+447 lines (302 sloc)  6.94 KB
+
 
 /* Style all font awesome icons */
 .fa {
@@ -21,6 +51,8 @@
     color: white;
   }
   
+  p {color: #000}
+  
   /* Twitter */
   .fa-twitter {
     background: #55ACEE;
@@ -38,6 +70,125 @@ background:#ffffff28; ;
 
   }
 
+  #main_nav .nav-item .nav-link:hover {color:rgba(113, 12, 64, 0.593);}
+
+
+
+
+ .transp {
+    opacity: 0.5;
+  }
+
+  .transp1 {
+    opacity: 0.7;
+    border-radius: 10%;
+    width:40%;
+    display: block;
+    margin: 0px auto;
+  }
+
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+
+    width: 60%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .btn-outline-primary:focus {
+    -webkit-box-shadow: 0 0 0 0.25rem rgb(50 194 81 / 50%);
+    box-shadow: 0 0 0 0.25rem rgb(50 194 62 / 50%)
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #550055c0;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  
+  h1 {color: black}
+  h2 {color: black}
+  h3 {color: black}
+  h4 {color: black}
+  h5 {color: black}
+  h6 {color: black}
+   p {color: #000}
+
+
+  .text-a {
+    color: #0d13c2 !important;
+  }
+
+
+  .text-primary {
+    color: #800b65 !important;
+  }
+  .btn-check:checked + .btn-outline-primary,
+  .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
+    color: #6800581f;
+    background-color: #4f32c234;
+    border-color: #5632c23f;
+  }
+
+
+  .cardb {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 12px;
+  }
 
 
 
@@ -50,9 +201,139 @@ background:#ffffff28; ;
 
 
 
+.acpe{
+    width:"height:380px";
+    
+}
 
 
 
+
+
+  .li2 {text-decoration : none; color : #2d2f31;}
+
+
+  .nav2 {
+    width : 600px; 
+    margin : 1px; 
+    text-align: center;
+  }
+  
+  .span2 {
+    width: 600px;
+    height: 60px;
+    background : #3c0d41b0; 
+    color : white;
+    font-size : 1.2em;
+    font-variant : small-caps;
+    cursor : pointer;
+    display: block;
+  }
+  
+  .span2::after {
+    float: right;
+    right: 10%;
+    content: "⛤";
+  }
+  .span2::before {
+    float: left;
+    right: 10%;
+    content: "⛤";
+  }
+  
+  .slide2 {
+    clear:both;
+    width:100%;
+    height:0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+  }
+  
+  .slide2 li {padding : 10px;}
+
+
+
+  #touch1 {position: absolute; opacity: 0; height: 0px;}    
+  
+  #touch1:checked + .slide2 {height: auto;} 
+
+  
+  #touch2 {position: absolute; opacity: 0; height: 0px;}    
+  
+  #touch2:checked + .slide2 {height: auto;} 
+
+
+
+
+
+  #touch3 {position: absolute; opacity: 0; height: 0px;}    
+  
+  #touch3:checked + .slide2 {height: auto;} 
+
+
+
+  #touch4 {position: absolute; opacity: 0; height: 0px;}    
+  
+  #touch4:checked + .slide2 {height: auto;} 
+
+  #touch5 {position: absolute; opacity: 0; height: 0px;}    
+  
+  #touch5:checked + .slide2 {height: auto;} 
+
+
+
+.layout {
+  height: 300px;
+  width: 650px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    box-shadow: 10px 10px 10px 10px rgba(126, 88, 128, 0.295);
+  
+}
+.layoutm {
+  height: 650px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 10px 10px rgba(126, 88, 128, 0.295);
+}
+
+.disclaimer{
+  border-left: transparent;
+  border-top: 2px solid transparent;
+  
+
+}
+Element {
+  color: transparent;
+}
+
+.borderb:hover{
+  
+    color: #7204722a;
+    background-color: #b632c250;
+    border-color: #c232ac62;
+  
+  box-shadow: 0 0 0 0.25rem rgba(158, 50, 194, 0.5)
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.info {color: #000}
 
 
 
@@ -94,14 +375,14 @@ background:#ffffff28; ;
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: rgb(205, 248, 207);
+    background-color: rgb(248, 205, 242);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   
   .active {
-    background-color: #417a1f5e;
+    background-color: #781f7a5e;
   }
   
   /* Fading animation */
@@ -118,8 +399,32 @@ background:#ffffff28; ;
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
-      
-          .navbar-toggler-icon {
+  }
+
+
+  @media only screen and (max-width: 700px){
+    .nav2 {
+      width : 300px; 
+      margin : 7px; 
+    }
+    .span2 {
+      width: 300px;
+      height: 50px;
+      background : #3c0d41b0; 
+      color : white;
+      font-size : 0.9em;
+      font-variant : small-caps;
+      cursor : pointer;
+      display: block;
+    }
+
+.acpe{
+    width:"height:180px";
+    
+}
+
+
+    .navbar-toggler-icon {
       display: inline-block;
       width: 1.5em;
       height: 1.5em;
@@ -140,13 +445,48 @@ width: 250px;
 height: auto;
 
 }
-      
-      
-      
-      
-      
-      
-      
-      
-      
+
+
+.btn-outline-primary:focus {
+    -webkit-box-shadow: 0 0 0 0.25rem rgb(50 194 81 / 50%);
+    box-shadow: 0 0 0 0.25rem rgb(50 194 62 / 50%)
+
+
+
+
+.slide2 {
+  clear:center;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+ 
+}
+
+.slide2 li {padding : 1px;}
+
+
+
+
+
+
+
+
+
+
   }
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You have no unread notifications
